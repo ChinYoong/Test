@@ -6,5 +6,5 @@
 
         var response = await _client.PatchAsync(BuildUri(path), new StringContent(json, Encoding.UTF8, "application/json"));
 
-        respone.EnsureSuccessStatusCode();
+        respone.EnsureSuccessStatusCode()
     }
